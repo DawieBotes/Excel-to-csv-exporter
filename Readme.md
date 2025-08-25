@@ -1,5 +1,7 @@
 # Excel-to-csv-exporter
 
+**Download the EXE from the Releases -->**
+
 A fast .NET 8 command-line tool to export Excel `.xlsx` / `.xls` files
 to CSV.\
 Supports large files (50k+ rows × 200+ columns), custom sheet selection,
@@ -135,3 +137,4 @@ For Linux/macOS, change `-r` to `linux-x64` or `osx-x64`.
 -   Quotes inside cells (`"`) are escaped as `""`.\
 -   If you need full RFC 4180 quoting (wrap fields that contain
     delimiters/line breaks in quotes), you can extend the writer logic.
+
