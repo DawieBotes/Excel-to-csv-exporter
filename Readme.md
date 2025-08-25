@@ -12,14 +12,14 @@ delimiters, and cell ranges.
 ## 🚀 Features
 
 -   Handles **large Excel files** efficiently (streaming read, no full
-    in-memory load).\
+    in-memory load).
 -   Export from:
-    -   **First sheet** (default)\
-    -   **Specific sheet index** (zero-based)\
-    -   **Specific sheet name**\
+    -   **First sheet** (default)
+    -   **Specific sheet index** (zero-based)
+    -   **Specific sheet name**
 -   Choose your own **CSV delimiter** (comma, semicolon, pipe, tab,
-    etc.).\
--   Export a specific **cell range** (e.g., `A1:D100`, `B2:Z50000`).\
+    etc.).
+-   Export a specific **cell range** (e.g., `A1:D100`, `B2:Z50000`).
 -   Produces **UTF-8 CSV output**.
 
 ------------------------------------------------------------------------
@@ -43,10 +43,10 @@ delimiters, and cell ranges.
 
   `[sheetName|sheetIndex]`       Optional          Sheet to export.
                                                    Default = first sheet.
-                                                   `<br>`{=html}• Index is
+                                                   • Index is
                                                    zero-based
                                                    (`0 = first sheet`).
-                                                   `<br>`{=html}• Or
+                                                   • Or
                                                    specify sheet name
                                                    (e.g. `"Data2025"`)
 
@@ -137,4 +137,5 @@ For Linux/macOS, change `-r` to `linux-x64` or `osx-x64`.
 -   Quotes inside cells (`"`) are escaped as `""`.\
 -   If you need full RFC 4180 quoting (wrap fields that contain
     delimiters/line breaks in quotes), you can extend the writer logic.
+
 
